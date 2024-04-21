@@ -1,0 +1,58 @@
+#colour-mode {
+    padding: 100px 0;
+    background: linear-gradient( 90deg, $gray-900 50%, white 50%);
+    
+    .container{
+       
+        .slider {
+            border-left: 4px solid $theme;
+            height: 962px;
+            top: 230.2%;
+            left: 49.9%;
+            position: absolute;
+            z-index: 2;
+        }
+
+        .slider-btn {
+            position: absolute;
+            top: 287%;
+            left:48.7%;
+            height: 40px;
+            width: 40px;
+            background-color: $theme;
+            border-radius: 50%;
+            z-index: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i {
+                color: white; 
+            }
+        }
+
+        .text-position{
+            display: flex;
+            justify-content: center;
+            margin-left: 30px;
+            margin-bottom: 50px;
+            gap: 20px;
+
+            .light {
+                justify-content: center;
+                color: white;
+            }
+
+            .dark {
+                justify-content: center;
+            }
+
+        }
+
+        .half-and-half {
+            display: flex;
+            justify-content: center;
+            z-index: 1;
+        }
+    }
+}
